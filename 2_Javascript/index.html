@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        table{
+            width: 100%;
+        }
+         table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+<h1> 1 ứng dụng có 2 button 1 để ẩn và 1 để hiện 1 table trong html</h1>
+
+<table id="demo">
+    <tr>
+        <th>Họ và tên</th>
+        <th>Mssv</th>
+    </tr>
+    <tr>
+        <td>Cấn Duy Đức</td>
+        <td>1521050065</td>
+    </tr>
+    <tr>
+        <td>Nguyễn Đăng Trường</td>
+        <td>1521050067</td>
+    </tr>
+</table>
+
+<button type ="button" onclick="document.getElementById('demo').style.display = 'none';">Ẩn table</button>
+<button type ="button" onclick="document.getElementById('demo').style.display = 'block';">Hiện table</button>
+
+<script type="text/javascript">
+    //document.getElementById("demo").style.display = 'none';
+</script>
+</body>
+</html>
